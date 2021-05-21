@@ -16,6 +16,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #fixed .nav-bar {
   margin-left: 4rem;
   display: -webkit-box;
@@ -213,6 +217,10 @@ main #portfolio .intro h1 {
   font-size: 2.5em;
   font-weight: 600;
   position: relative;
+}
+
+main #portfolio .intro h1 .break {
+  display: none;
 }
 
 main #portfolio .intro h1 span {
@@ -748,8 +756,16 @@ footer .contact-box .contacts ul li::before {
       opacity: 1;
     }
   }
-  #main .portfolio {
+  #main #portfolio {
     padding: 4rem 1rem;
+  }
+  #main #portfolio .intro h1 .break {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #work h1 {
+    font-size: 3em;
   }
   main #work .work-box-collection {
     -ms-grid-columns: 1fr;
@@ -764,6 +780,9 @@ footer .contact-box .contacts ul li::before {
   }
   div#about {
     margin-bottom: 3rem;
+  }
+  div#about h1 span {
+    margin-right: -0.6rem;
   }
   div#about .photo div.photo-frontframe {
     width: 10rem;
@@ -864,6 +883,9 @@ footer .contact-box .contacts ul li::before {
   }
   #about div.aboutme {
     font-size: 1em;
+  }
+  #about div.aboutme h1 span {
+    margin-right: -0.6rem;
   }
   #about div.aboutme .two-col {
     display: block;
