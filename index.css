@@ -798,6 +798,7 @@ footer .contact-box .contacts ul li::before {
     width: 25rem;
   }
   div#about {
+    margin-left: 0;
     margin-bottom: 3rem;
   }
   div#about h1 span {
@@ -809,6 +810,10 @@ footer .contact-box .contacts ul li::before {
   }
   div#about .aboutme {
     margin-top: -5rem;
+  }
+  footer {
+    margin-left: 0;
+    padding: 1rem;
   }
 }
 

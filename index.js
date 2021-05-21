@@ -6,6 +6,7 @@ let portfolio = document.querySelector("#portfolio");
 let BG = document.querySelector(".bgblur");
 
 hamBurger.addEventListener("click", hamBurgerFunction);
+navBar.addEventListener("click", optionFunction);
 
 
 function hamBurgerFunction(){
@@ -18,4 +19,11 @@ function hamBurgerFunction(){
         hamBurger.classList.add("active-hamburger");
         portfolio.style.opacity = "0";
     }
+}
+
+
+function optionFunction(){
+    navBar.classList.remove("mobile-nav-bar");
+    portfolio.style.opacity = "1";
+    hamBurger.classList.remove("active-hamburger");
 }

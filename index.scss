@@ -650,6 +650,7 @@ footer{
   }
 
   div#about{
+    margin-left: 0;
     margin-bottom: 3rem; 
     h1 span{
       margin-right: -0.6rem;
@@ -662,6 +663,11 @@ footer{
     margin-top: -5rem;
   }
 }
+
+ footer{
+   margin-left: 0;
+   padding: 1rem;
+ }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
