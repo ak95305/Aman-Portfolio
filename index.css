@@ -756,8 +756,8 @@ footer .contact-box .contacts ul li::before {
         grid-template-columns: 1fr;
   }
   main #work .work-box-collection div.box div {
-    width: 20rem;
-    height: 15rem;
+    width: 15rem;
+    height: 10rem;
   }
   main #work .work-box-collection div.box div:hover {
     width: 25rem;
