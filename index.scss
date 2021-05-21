@@ -535,18 +535,22 @@ footer{
 }
 
 
-
 //MEDIA QUERIES
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   #fixed {
+    margin-left: 0;
+
     .nav-bar {
       display: none;
     }
 
     .hamburger {
       display: block;
+    }
+    .sidebar{
+      display: none;
     }
 
     .mobile-nav-bar {
@@ -609,9 +613,18 @@ footer{
 
   #main #portfolio{
     padding: 4rem 1rem;
+    margin-left: 0;
 
     .intro{
+      h5{
+        margin: auto;
+      }
+
+      h4{
+        margin: auto;
+      }
       h1{
+        margin: 0;
         .break{
           display: flex;
         }
@@ -620,6 +633,7 @@ footer{
   }
 
   main #work{
+    margin-left: 0;
     h1{
       font-size: 3em;
     }

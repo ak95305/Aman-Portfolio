@@ -675,11 +675,17 @@ footer .contact-box .contacts ul li::before {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+  #fixed {
+    margin-left: 0;
+  }
   #fixed .nav-bar {
     display: none;
   }
   #fixed .hamburger {
     display: block;
+  }
+  #fixed .sidebar {
+    display: none;
   }
   #fixed .mobile-nav-bar {
     padding: 2rem 0rem;
@@ -758,11 +764,24 @@ footer .contact-box .contacts ul li::before {
   }
   #main #portfolio {
     padding: 4rem 1rem;
+    margin-left: 0;
+  }
+  #main #portfolio .intro h5 {
+    margin: auto;
+  }
+  #main #portfolio .intro h4 {
+    margin: auto;
+  }
+  #main #portfolio .intro h1 {
+    margin: 0;
   }
   #main #portfolio .intro h1 .break {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  main #work {
+    margin-left: 0;
   }
   main #work h1 {
     font-size: 3em;
