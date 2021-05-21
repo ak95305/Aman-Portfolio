@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./index.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
@@ -86,7 +87,7 @@
             <div class="mywork">
                 <a href="#work">My Work</a>
             </div>
-            <div class="box-collection">
+            <div class="box-collection" data-aos="fade-up"  data-aos-duration="2500">
                 <div class="box box1"></div>
                 <div class="box box2"></div>
                 <div class="box box3"></div>
@@ -97,23 +98,28 @@
           </div>
 
           <div id="work">
-              <h1>My Work</h1>
+              <h1><span class="letter">
+                <span class="up-letter letter-M">M</span>
+                <span class="for-shadow">M</span>
+            </span>y Work</h1>
             <div class="work-box-collection">
-                <a href="https://manage-github-io.vercel.app/" target="_blank"><div class="box box1"><div></div><span>Manage Landing Page</span></div></a>
-                <a href="https://fylo-dark-theme-landing-page-three-tau.vercel.app/" target="_blank"><div class="box box2"><div></div><span>Fylo Landing Page</span></div></a>
-                <a href="https://fylo-dark-theme-landing-page-three-tau.vercel.app/" target="_blank"><div class="box box3"><div></div><span>Fylo Landing Page</span></div></a>
-                <a href="https://crowd-funding-one.vercel.app/" target="_blank"><div class="box box4"><div></div><span>Crowd Funding Page</span></div></a>
-                <a href="https://launch-countdown-timer-orcin.vercel.app/" target="_blank"><div class="box box5"><div></div><span>Countdown Launcher</span></div></a>
-                <a href="https://project-tracking-intro-one.vercel.app/" target="_blank"><div class="box box6"><div></div><span>Insights Landing Page</span></div></a>
+                <a href="https://manage-github-io.vercel.app/" target="_blank" data-aos="fade-up"><div class="box box1"><div></div><span>Manage Landing Page</span></div></a>
+                <a href="https://fylo-dark-theme-landing-page-three-tau.vercel.app/" target="_blank" data-aos="fade-up"><div class="box box2"><div></div><span>Fylo Landing Page</span></div></a>
+                <a href="https://fylo-dark-theme-landing-page-three-tau.vercel.app/" target="_blank" data-aos="fade-up"><div class="box box3"><div></div><span>Fylo Landing Page</span></div></a>
+                <a href="https://crowd-funding-one.vercel.app/" target="_blank" data-aos="fade-up"><div class="box box4"><div></div><span>Crowd Funding Page</span></div></a>
+                <a href="https://launch-countdown-timer-orcin.vercel.app/" target="_blank" data-aos="fade-up"><div class="box box5"><div></div><span>Countdown Launcher</span></div></a>
+                <a href="https://project-tracking-intro-one.vercel.app/" target="_blank" data-aos="fade-up"><div class="box box6"><div></div><span>Insights Landing Page</span></div></a>
               </div>
           </div>
 
           <div id="about">
-              <div class="photo">
+              <div class="photo" data-aos="fade-right">
                   <div class="photo-frontframe"><img src="./assets/IMG20190219210242__2_-removebg-min.png" alt="photo"></div>
                 </div>
-              <div class="aboutme">
-                  <h1>About Me</h1>
+              <div class="aboutme" data-aos="fade-left">
+                  <h1><span class="letter">
+                    <span class="up-letter letter-A">A</span>
+                    <span class="for-shadow">A</span>bout Me</h1>
                   <p>I am Aman from Punjab, India. I have been building things over internet from past 1 year.</p>
                   <p>These Technologies I'm Working With:</p>
                   <div class="two-col">
@@ -132,7 +138,7 @@
           </div>
       </main>
 
-      <footer id="contact">
+      <footer id="contact" data-aos="fade-up">
         <h1>Get in Touch</h1>
         <div class="contact-box">
           <div class="hello">
@@ -150,6 +156,7 @@
       </footer>
     </div>
 
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>

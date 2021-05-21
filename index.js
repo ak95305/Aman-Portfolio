@@ -1,3 +1,5 @@
+AOS.init();
+
 let hamBurger = document.querySelector(".hamburger");
 let navBar = document.querySelector(".for-pc-view");
 let portfolio = document.querySelector(".portfolio");
